@@ -1,0 +1,65 @@
+/**
+ *	This element is created inside your target element
+ *	It is used so that your own element will not need to be altered
+ **/
+.time_circles {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+/**
+ *	This is all the elements used to house all text used
+ * in time circles
+ **/
+.time_circles > div {
+    position: absolute;
+    text-align: center;
+}
+
+/**
+ *	Titles (Days, Hours, etc)
+ **/
+.time_circles > div > h4 {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Century Gothic', Arial;
+}
+
+/**
+ *	Time numbers, ie: 12
+ **/
+.time_circles > div > span {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-family: 'Century Gothic', Arial;
+    font-size: 300%;
+    margin-top: 0.4em;
+    font-weight: bold;
+}
+
+/*
+     FILE ARCHIVED ON 19:54:45 Jan 27, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 15:55:23 Jun 08, 2022.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 1628.492
+  exclusion.robots: 0.098
+  exclusion.robots.policy: 0.09
+  cdx.remote: 0.083
+  esindex: 0.01
+  LoadShardBlock: 1285.122 (3)
+  PetaboxLoader3.datanode: 1095.137 (5)
+  CDXLines.iter: 19.688 (3)
+  PetaboxLoader3.resolve: 406.629 (2)
+  load_resource: 240.517
+  loaddict: 9.101
+*/
