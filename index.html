@@ -5,13 +5,12 @@
 	<script src="assets/js/jquery.min.js"></script>
 	<script>
 		$(function () {
-			$("#header").load("header.html");
+			$("#header").load("header.html", function () {
+				document.getElementById("header_link_home").classList.add('active');
+			});
 			$("#footer").load("footer.html");
 			$("head").load("head.html");
 
-		});
-		$(window).on('load', function () {
-			document.getElementById("header_link_home").classList.add('active');
 		});
 	</script>
 </head>
