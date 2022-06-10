@@ -1,4 +1,4 @@
-function includeHTML() {
+function includeHTML(which_link) {
     var z, i, elmnt, file, xhttp;
     /* Loop through a collection of all HTML elements: */
     z = document.getElementsByTagName("*");
@@ -24,5 +24,5 @@ function includeHTML() {
             return;
         }
     }
+    document.getElementById(which_link).classList.add('active');
 }
-includeHTML();
