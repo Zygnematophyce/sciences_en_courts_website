@@ -2,75 +2,22 @@
 <html lang="en">
 
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
-	<meta name="author" content="Sergey Pozhilov (GetTemplate.com)">
-
-	<title>Sciences en cour[t]s – Site du festival de très courts métrage de vulgarisation scientifique</title>
-
-	<link rel="shortcut icon" href="assets/images/favicon.png">
-
-	<!-- <link rel="stylesheet" media="screen" href="assets/fonts/font_open_sans.woff2"> -->
-	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
-	<link rel="stylesheet" href="assets/css/carousel.css">
-	<link rel="stylesheet" id="king-countdowner-css" href="assets/css/time_circle.css" type="text/css" media="all">
-
-	<!-- Custom styles for our template -->
-	<link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen">
-	<link rel="stylesheet" href="assets/css/main.css">
-
 	<script src="assets/js/jquery.min.js"></script>
-	<script type="text/javascript" src="assets/js/time_circle.js"></script>
-	<script type="text/javascript" src="assets/js/carousel.js"></script>
+	<script>
+		$(function () {
+			$("#header").load("header.html");
+			$("#footer").load("footer.html");
+			$("head").load("head.html");
 
-	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-	<!--[if lt IE 9]>
-	<script src="assets/js/html5shiv.js"></script>
-	<script src="assets/js/respond.min.js"></script>
-	<![endif]-->
+		});
+		$(window).on('load', function () {
+			document.getElementById("header_link_movies").classList.add('active');
+		});
+	</script>
 </head>
 
-<body class="home">
-	<!-- Fixed navbar -->
-	<div class="navbar navbar-inverse navbar-fixed-top headroom">
-		<div class="container">
-			<div class="navbar-header">
-				<!-- Button for smallest screens -->
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span
-						class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-				<a class="navbar-brand" href="index.html"><img src="assets/images/logo.png"
-						alt="Progressus HTML5 template" width="150px"></a>
-			</div>
-			<div class="navbar-collapse collapse">
-				<ul class="nav navbar-nav pull-right">
-					<li class="active"><a href="#">Home</a></li>
-					<li><a href="movies.html">Tous les films</a></li>
-					<li class="dropdown">
-						<a class="dropdown-toggle" data-toggle="dropdown">Précédentes éditions <b class="caret"></b></a>
-						<ul class="dropdown-menu">
-							<li><a href="2021.html">2021</a></li>
-							<li><a href="2020.html">2020</a></li>
-						</ul>
-					</li>
-					<li><a href="partenaires.html">Partenaires</a></li>
-				</ul>
-			</div>
-			<!--/.nav-collapse -->
-		</div>
-	</div>
-	<!-- /.navbar -->
-
-	<!-- Header -->
-	<header id="head">
-		<div class="container">
-			<div class="row">
-				<img src="assets/images/header.png" />
-			</div>
-		</div>
-	</header>
-	<!-- /Header -->
+<body>
+	<div id="header"></div>
 
 	<!-- Intro -->
 	<div class="container text-center">
@@ -90,14 +37,20 @@
 			<li>Etc...</li>
 		</ul>
 		<p class="text-left">
-			Le seul impératif est la vulgarisation : il s’agit de proposer des films courts, toniques et divertissants,
+			Le seul impératif est la vulgarisation : il s’agit de proposer des films courts, toniques et
+			divertissants,
 			quelle que soit la discipline (sciences humaines ou sciences expérimentales).</br>
 
-			Ce festival est aussi une compétition amicale entre les doctorants : un Jury, composé de personnalités du
-			monde scientifique, de l’audiovisuel et de la culture, établit le podium des 3 films qui auront su le mieux
-			allier message scientifique et qualités « cinématographiques ». S’ajoutent aux 3 prix décernés par le jury,
-			deux Coups de cœur, le premier décerné par les Lycéens à l’occasion d’une projection spécialement organisée
-			à leur intention et le second par le Public à l’occasion de la soirée de gala. Toutes les projections sont
+			Ce festival est aussi une compétition amicale entre les doctorants : un Jury, composé de personnalités
+			du
+			monde scientifique, de l’audiovisuel et de la culture, établit le podium des 3 films qui auront su le
+			mieux
+			allier message scientifique et qualités « cinématographiques ». S’ajoutent aux 3 prix décernés par le
+			jury,
+			deux Coups de cœur, le premier décerné par les Lycéens à l’occasion d’une projection spécialement
+			organisée
+			à leur intention et le second par le Public à l’occasion de la soirée de gala. Toutes les projections
+			sont
 			l’occasion d’un échange entre les doctorants-réalisateurs et le public.
 		</p>
 		<p><a class="btn btn-primary btn-large">Inscription Lycéens</a></p>
@@ -216,68 +169,7 @@
 			});
 		</script>
 	</div>
-	<!-- /Intro-->
 
-	<!-- Highlights - jumbotron -->
-
-	<!-- <div class="jumbotron top-space">
-		<div class="container">
-
-			<h3 class="text-center thin">Reasons to use this template</h3>
-
-			<div class="row">
-				<div class="col-md-3 col-sm-6 highlight">
-					<div class="h-caption">
-						<h4><i class="fa fa-cogs fa-5"></i>Bootstrap-powered</h4>
-					</div>
-					<div class="h-body text-center">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque aliquid adipisci
-							aspernatur.
-							Soluta quisquam dignissimos earum quasi voluptate. Amet, dignissimos, tenetur vitae
-							dolor
-							quam iusto assumenda hic reprehenderit?</p>
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-6 highlight">
-					<div class="h-caption">
-						<h4><i class="fa fa-flash fa-5"></i>Fat-free</h4>
-					</div>
-					<div class="h-body text-center">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, commodi, sequi quis
-							ad
-							fugit omnis cumque a libero error nesciunt molestiae repellat quos perferendis numquam
-							quibusdam rerum repellendus laboriosam reprehenderit! </p>
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-6 highlight">
-					<div class="h-caption">
-						<h4><i class="fa fa-heart fa-5"></i>Creative Commons</h4>
-					</div>
-					<div class="h-body text-center">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, vitae, perferendis,
-							perspiciatis nobis voluptate quod illum soluta minima ipsam ratione quia numquam eveniet
-							eum
-							reprehenderit dolorem dicta nesciunt corporis?</p>
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-6 highlight">
-					<div class="h-caption">
-						<h4><i class="fa fa-smile-o fa-5"></i>Author's support</h4>
-					</div>
-					<div class="h-body text-center">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, excepturi, maiores,
-							dolorem
-							quasi reprehenderit illo accusamus nulla minima repudiandae quas ducimus reiciendis odio
-							sequi atque temporibus facere corporis eos expedita? </p>
-					</div>
-				</div>
-			</div>
-
-		</div>
-	</div> -->
-	<!-- /Highlights -->
-
-	<!-- Social links. @TODO: replace by link/instructions in template -->
 	<section id="social">
 		<div class="container">
 			<div class="wrapper clearfix">
@@ -293,93 +185,6 @@
 		</div>
 	</section>
 	<!-- /social links -->
-
-
-	<footer id="footer" class="top-space">
-
-		<div class="footer1">
-			<div class="container">
-				<div class="row">
-
-					<div class="col-md-8 widget">
-						<h3 class="widget-title">Contact</h3>
-						<div class="widget-body">
-							<p>
-								<a href="mailto:#">sciences.en.courts@gmail.com</a><br>
-								<br>
-								Association Nicomaque
-								Bureau A102
-								INRIA/IRISA
-								Campus universitaire de Beaulieu
-								35042 RENNES
-							</p>
-						</div>
-					</div>
-
-					<div class="col-md-4 widget">
-						<h3 class="widget-title">Follow me</h3>
-						<div class="widget-body">
-							<p class="follow-me-icons">
-								<a href=""><i class="fa fa-twitter fa-2"></i></a>
-								<a href=""><i class="fa fa-dribbble fa-2"></i></a>
-								<a href=""><i class="fa fa-github fa-2"></i></a>
-								<a href=""><i class="fa fa-youtube fa-2"></i></a>
-								<a href=""><i class="fa fa-facebook fa-2"></i></a>
-							</p>
-						</div>
-					</div>
-
-					<!-- <div class="col-md-6 widget">
-						<h3 class="widget-title">Text widget</h3>
-						<div class="widget-body">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, dolores,
-								quibusdam
-								architecto voluptatem amet fugiat nesciunt placeat provident cumque accusamus itaque
-								voluptate modi quidem dolore optio velit hic iusto vero praesentium repellat commodi
-								ad
-								id expedita cupiditate repellendus possimus unde?</p>
-							<p>Eius consequatur nihil quibusdam! Laborum, rerum, quis, inventore ipsa autem repellat
-								provident assumenda labore soluta minima alias temporibus facere distinctio quas
-								adipisci nam sunt explicabo officia tenetur at ea quos doloribus dolorum voluptate
-								reprehenderit architecto sint libero illo et hic.</p>
-						</div>
-					</div> -->
-
-				</div> <!-- /row of widgets -->
-			</div>
-		</div>
-
-		<div class="footer2">
-			<div class="container">
-				<div class="row">
-
-					<div class="col-md-6 widget">
-						<div class="widget-body">
-							<p class="simplenav">
-								<a href="#">Home</a> |
-								<a href="about.html">About</a> |
-								<a href="sidebar-right.html">Sidebar</a> |
-								<a href="contact.html">Contact</a> |
-								<b><a href="signup.html">Sign up</a></b>
-							</p>
-						</div>
-					</div>
-
-					<div class="col-md-6 widget">
-						<div class="widget-body">
-							<p class="text-right">
-								Copyright &copy; 2014, Your name. Designed by <a href="http://gettemplate.com/"
-									rel="designer">gettemplate</a>
-							</p>
-						</div>
-					</div>
-
-				</div> <!-- /row of widgets -->
-			</div>
-		</div>
-
-	</footer>
-
 
 
 
@@ -413,12 +218,8 @@
 			}
 		});
 	</script>
-	<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/bootstrap.min.js"></script>
-	<script src="assets/js/headroom.min.js"></script>
-	<script src="assets/js/jQuery.headroom.min.js"></script>
-	<script src="assets/js/template.js"></script>
+
+	<div id="footer"></div>
 </body>
 
 </html>
