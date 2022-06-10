@@ -1,11 +1,11 @@
-function includeHTML(which_link) {
+function includeHTML(attribute_name) {
     var z, i, elmnt, file, xhttp;
     /* Loop through a collection of all HTML elements: */
     z = document.getElementsByTagName("*");
     for (i = 0; i < z.length; i++) {
         elmnt = z[i];
         /*search for elements with a certain atrribute:*/
-        file = elmnt.getAttribute("include-html");
+        file = elmnt.getAttribute(attribute_name);
         if (file) {
             /* Make an HTTP request using the attribute value as the file name: */
             xhttp = new XMLHttpRequest();
@@ -14,7 +14,7 @@ function includeHTML(which_link) {
                     if (this.status == 200) { elmnt.innerHTML = this.responseText; }
                     if (this.status == 404) { elmnt.innerHTML = "Page not found."; }
                     /* Remove the attribute, and call this function once more: */
-                    elmnt.removeAttribute("include-html");
+                    elmnt.removeAttribute(attribute_name);
                     includeHTML();
                 }
             }
@@ -24,5 +24,9 @@ function includeHTML(which_link) {
             return;
         }
     }
+}
+
+function includeHeader(attribute_name, which_link) {
+    includeHTML(attribute_name):
     document.getElementById(which_link).classList.add('active');
 }
