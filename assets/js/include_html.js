@@ -27,6 +27,6 @@ function includeHTML(attribute_name) {
 }
 
 function includeHeader(attribute_name, which_link) {
-    includeHTML(attribute_name):
+    includeHTML(attribute_name);
     document.getElementById(which_link).classList.add('active');
 }
