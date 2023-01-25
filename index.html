@@ -1,238 +1,113 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
-	<meta name="author" content="Sergey Pozhilov (GetTemplate.com)">
-
-	<title>Sciences en cour[t]s – Site du festival de très courts métrage de vulgarisation scientifique</title>
-
-	<link rel="shortcut icon" href="assets/images/favicon.png">
-
-	<link rel="stylesheet" media="screen" href="assets/fonts/font_open_sans.woff2">
-	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
-	<link rel="stylesheet" href="assets/css/carousel.css">
-	<link rel="stylesheet" id="king-countdowner-css" href="assets/css/TimeCircles.css" type="text/css" media="all">
-
-	<!-- Custom styles for our template -->
-	<link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen">
-	<link rel="stylesheet" href="assets/css/main.css">
-
-	<script src="assets/js/jquery.min.js"></script>
-	<!--<script type="text/javascript" src="assets/js/TimeCircles.js"></script>-->
-
-	<script type="text/javascript" src="assets/js/carousel.js"></script>
-
-	<script src="assets/js/bootstrap.min.js"></script>
-	<script src="assets/js/headroom.min.js"></script>
-	<script src="assets/js/jQuery.headroom.min.js"></script>
-	<script src="assets/js/template.js"></script>
-
-	<script>
-		$(function () {
-			$("#header").load("header.html", function () {
-				document.getElementById("header_link_home").classList.add('active');
-			});
-			$("#footer").load("footer.html");
-		});
-	</script>
-</head>
-
-<body>
-	<div id="header"></div>
-
-	<!-- Intro -->
-	<div class="container text-center">
-		<h2 class="thin">C'est quoi Sciences en Cour[t]s ?</h2>
-		<p class="text-left">
-			Depuis 2007, l’équipe de Sciences en Cour[t]s organise un festival de courts-métrages, qui offre à des
-			doctorants l’opportunité de réaliser des courts métrages sur leurs travaux de thèses.</br>
-
-			L’objectif est de répondre, de façon ludique et pédagogique, aux questions que se pose le public :</br>
-		</p>
-		<ul class="text-left">
-			<li>À quoi sert une thèse ?</li>
-			<li> Que fait un doctorant ?</li>
-			<li>Comment se construit une démarche scientifique ?</li>
-			<li>Quels sont les thèmes de recherche développés à l’Université ?</li>
-			<li>Etc...</li>
-		</ul>
-		<p class="text-left">
-			Le seul impératif est la vulgarisation : il s’agit de proposer des films courts, toniques et
-			divertissants,
-			quelle que soit la discipline (sciences humaines ou sciences expérimentales).</br>
-
-			Ce festival est aussi une compétition amicale entre les doctorants : un Jury, composé de personnalités
-			du
-			monde scientifique, de l’audiovisuel et de la culture, établit le podium des 3 films qui auront su le
-			mieux
-			allier message scientifique et qualités « cinématographiques ». S’ajoutent aux 3 prix décernés par le
-			jury,
-			deux Coups de cœur, le premier décerné par les Lycéens à l’occasion d’une projection spécialement
-			organisée
-			à leur intention et le second par le Public à l’occasion de la soirée de gala. Toutes les projections
-			sont
-			l’occasion d’un échange entre les doctorants-réalisateurs et le public.
-		</p>
-		<!--
-		<p><a class="btn btn-primary btn-large"
-				href="https://framaforms.org/inscription-lycee-sciences-en-courts-2022-1651492710"
-				target="_blank">Inscriptions réservées aux Lycées (après midi)</a></p>
-		<p><a class="btn btn-primary btn-large" href="https://www.billetweb.fr/sec2022" target="_blank">Inscriptions
-				Grand Public (Soir)</a></p>
-		<h3>Prochain événement : 13 octobre 2023</h3>
-		<div id="festival_jour_j" style="width: 100%;" data-date="2023-10-13 20:00:00"
-			data-tc-id="e7f49168-41e9-ea72-1d2f-9bb68fe66f7b">
-			<div class="time_circles"><canvas width="1060" height="265"></canvas>
-				<div class="textDiv_Days" style="top: 93px; left: 0px; width: 265px;">
-					<h4 style="font-size: 19px; line-height: 19px;">Jours</h4><span
-						style="font-size: 56px; line-height: 19px;">118</span>
-				</div>
-				<div class="textDiv_Hours" style="top: 93px; left: 265px; width: 265px;">
-					<h4 style="font-size: 19px; line-height: 19px;">Heures</h4><span
-						style="font-size: 56px; line-height: 19px;">1</span>
-				</div>
-				<div class="textDiv_Minutes" style="top: 93px; left: 530px; width: 265px;">
-					<h4 style="font-size: 19px; line-height: 19px;">Minutes</h4><span
-						style="font-size: 56px; line-height: 19px;">23</span>
-				</div>
-				<div class="textDiv_Seconds" style="top: 93px; left: 795px; width: 265px;">
-					<h4 style="font-size: 19px; line-height: 19px;">Secondes</h4><span
-						style="font-size: 56px; line-height: 19px;">8</span>
-				</div>
-			</div>
-		</div>
-		-->
-		<p><a class="btn btn-primary btn-large"
-			href="https://framaforms.org/sciences-en-courts-1674214593"
-			target="_blank">Ça m'intéresse!</a></p>
-		<div class="container">
-
-			<h1>Les éditions précédentes</h1>
-
-
-			<!--  <a href="https://github.com/rtpHarry/Bootstrap3-ShowManySlideOneCarousel">this code sample</a>   -->
-			<div class="row">
-				<div class="col-md-12">
-					<div class="carousel carousel-showmanymoveone slide" id="carousel-tilenav" data-interval="false">
-						<div class="carousel-inner">
-							<div class="item active">
-								<div class="col-xs-12 col-sm-6 col-md-2">
-									<a href="#"><img src="assets/images/affiches/2007.jpg" class="img-responsive"></a>
-								</div>
-							</div>
-							<div class="item active">
-								<div class="col-xs-12 col-sm-6 col-md-2">
-									<a href="#"><img src="assets/images/affiches/2008.jpg" class="img-responsive"></a>
-								</div>
-							</div>
-							<div class="item active">
-								<div class="col-xs-12 col-sm-6 col-md-2">
-									<a href="#"><img src="assets/images/affiches/2009.jpg" class="img-responsive"></a>
-								</div>
-							</div>
-							<div class="item active">
-								<div class="col-xs-12 col-sm-6 col-md-2">
-									<a href="#"><img src="assets/images/affiches/2010.jpg" class="img-responsive"></a>
-								</div>
-							</div>
-							<div class="item active">
-								<div class="col-xs-12 col-sm-6 col-md-2">
-									<a href="#"><img src="assets/images/affiches/2011.jpg" class="img-responsive"></a>
-								</div>
-							</div>
-							<div class="item active">
-								<div class="col-xs-12 col-sm-6 col-md-2">
-									<a href="#"><img src="assets/images/affiches/2012.jpg" class="img-responsive"></a>
-								</div>
-							</div>
-							<div class="item active">
-								<div class="col-xs-12 col-sm-6 col-md-2">
-									<a href="#"><img src="assets/images/affiches/2013.jpg" class="img-responsive"></a>
-								</div>
-							</div>
-							<div class="item active">
-								<div class="col-xs-12 col-sm-6 col-md-2">
-									<a href="#"><img src="assets/images/affiches/2014.jpg" class="img-responsive"></a>
-								</div>
-							</div>
-							<div class="item active">
-								<div class="col-xs-12 col-sm-6 col-md-2">
-									<a href="#"><img src="assets/images/affiches/2016.jpg" class="img-responsive"></a>
-								</div>
-							</div>
-							<div class="item active">
-								<div class="col-xs-12 col-sm-6 col-md-2">
-									<a href="#"><img src="assets/images/affiches/2017.png" class="img-responsive"></a>
-								</div>
-							</div>
-							<div class="item active">
-								<div class="col-xs-12 col-sm-6 col-md-2">
-									<a href="#"><img src="assets/images/affiches/2020.jpg" class="img-responsive"></a>
-								</div>
-							</div>
-							<div class="item active">
-								<div class="col-xs-12 col-sm-6 col-md-2">
-									<a href="#"><img src="assets/images/affiches/2021.png" class="img-responsive"></a>
-								</div>
-							</div>
-							<div class="item active">
-								<div class="col-xs-12 col-sm-6 col-md-2">
-									<a href="#"><img src="assets/images/affiches/2022.png" class="img-responsive"></a>
-								</div>
-							</div>
-						</div>
-						<a class="left carousel-control" href="#carousel-tilenav" data-slide="prev"><i
-								class="glyphicon glyphicon-chevron-left"></i></a>
-						<a class="right carousel-control" href="#carousel-tilenav" data-slide="next"><i
-								class="glyphicon glyphicon-chevron-right"></i></a>
-					</div>
-				</div>
-			</div>
-
-
-		</div>
-
-		<br>
-
-		<div id="festival_jour_j" style="width: 100%;" data-date="2022-10-13 19:30:00"></div>
-
-		<script type="text/javascript">
-			jQuery("#festival_jour_j").TimeCircles({
-				"animation": "smooth",
-				"bg_width": 0.2,
-				"fg_width": 0.043333333333333335,
-				"circle_bg_color": "#E2E2E2",
-				"time": {
-					"Days": {
-						"text": "Jours",
-						"color": "#d2a710",
-						"show": 1
-					},
-					"Hours": {
-						"text": "Heures",
-						"color": "#d2a710",
-						"show": 1
-					},
-					"Minutes": {
-						"text": "Minutes",
-						"color": "#d2a710",
-						"show": 1
-					},
-					"Seconds": {
-						"text": "Secondes",
-						"color": "#d2a710",
-						"show": 1
-					}
-				}
-			});
-		</script>
-	</div>
-
-	<div id="footer"></div>
-</body>
-
+<!doctype html>
+<html class="no-js" lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Sciences en cour[t]s</title>
+        <meta name="description" content="Site du festival de très courts métrage de vulgarisation scientifique">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shorcut icon" href="img/favicon.png">
+        <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+    </head>
+    <body>
+        <section class="nav-bar">
+            <nav>
+                <a href="#">
+                    <img src="img/navbar-logo.png" class="navbar-logo" alt="science en courts" />
+                </a>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="movies.html">Tous les films</a></li>
+                    <li><a href="#">Précédentes éditions</a></li>
+                    <li><a href="partners.html">Partenaires</a>
+                </ul>
+            </nav>
+        </section>
+        <header>
+            <h1>- Quand Einstein rencontre Spielberg -</h1>
+            <h1>
+                Le fectival de très court métrage </br> de vulgarisation
+                scientifique
+            </h1>
+        </header>
+        <section>
+            <main>
+                <h1>C'est quoi Sciences en Cour[t]s ?</h1>
+                <p> Depuis 2007, l’équipe de Sciences en Cour[t]s organise un
+                    festival de courts-métrages, qui offre à des doctorants
+                    l’opportunité de réaliser des courts métrages sur leurs travaux de
+                    thèses.</p>
+                <h2>
+                    L’objectif est de répondre, de façon ludique et
+                    pédagogique, aux questions que se pose le public !
+                </h2>
+                <ul>
+                    <li>À quoi sert une thèse ?</li>
+                    <li>Que fait un doctorant ?</li>
+                    <li>Comment se construit une démarche scientifique ?</li>
+                    <li>Quels sont les thèmes de recherche développés à l’Université ?</li>
+                    <li>Etc...</li>
+                </ul>
+                <p>
+                    Le seul impératif est la vulgarisation : il s’agit de proposer
+                    des films courts, toniques et divertissants, quelle que soit la
+                    discipline (sciences humaines ou sciences expérimentales). Ce
+                    festival est aussi une compétition amicale entre les doctorants
+                    : un Jury, composé de personnalités du monde scientifique, de
+                    l’audiovisuel et de la culture, établit le podium des 3 films
+                    qui auront su le mieux allier message scientifique et qualités «
+                    cinématographiques ». S’ajoutent aux 3 prix décernés par le
+                    jury, deux Coups de cœur, le premier décerné par les Lycéens à
+                    l’occasion d’une projection spécialement organisée à leur
+                    intention et le second par le Public à l’occasion de la soirée
+                    de gala. Toutes les projections sont l’occasion d’un échange
+                    entre les doctorants-réalisateurs et le public.
+                </p>
+                <div class="framaform">
+                    <a class="button" href="https://framaforms.org/sciences-en-courts-1674214593" target="_blank">
+                        Ça m'intéresse !
+                    </a>
+                </div>
+            </main>
+        </section>
+        <section class="edition">
+            <h1>Les éditions précédentes</h1>
+            <div class="editions-grid">
+                <img src="img/posters/2007.jpg" alt="Affiche de sciences en courts de 2007" />
+                <img src="img/posters/2008.jpg" alt="Affiche de sciences en courts de 2008" />
+                <img src="img/posters/2009.jpg" alt="Affiche de sciences en courts de 2009" />
+                <img src="img/posters/2010.jpg" alt="Affiche de sciences en courts de 2010" />
+                <img src="img/posters/2011.jpg" alt="Affiche de sciences en courts de 2011" />
+                <img src="img/posters/2012.jpg" alt="Affiche de sciences en courts de 2012" />
+                <img src="img/posters/2013.jpg" alt="Affiche de sciences en courts de 2013" />
+                <img src="img/posters/2014.jpg" alt="Affiche de sciences en courts de 2014" />
+                <img src="img/posters/2016.jpg" alt="Affiche de sciences en courts de 2016" />
+                <img src="img/posters/2017.png" alt="Affiche de sciences en courts de 2017" />
+                <img src="img/posters/2020.jpg" alt="Affiche de sciences en courts de 2020" />
+                <img src="img/posters/2021.png" alt="Affiche de sciences en courts de 2021" />
+                <img src="img/posters/2022.png" alt="Affiche de sciences en courts de 2022" />
+            </div>
+        </section>
+        <footer>
+            <div class="contact">
+                <h3>Conctact</h3>
+                <a href="mailto:#">sciences.en.courts@gmail.com</a>
+                <p>Association Nicomaque Bureau A102 INRIA/IRISA Campus
+                universitaire de Beaulieu 35042 RENNES</p>
+            </div>
+            <div class="social-networks">
+                <h2>Follow me</h2>
+            </div>
+        </footer>
+        <footer>
+            <ul>
+                <li><a href="">Home |</a></li>
+                <li><a href="">Tous les films |</a></li>
+            </ul>
+            <p>
+                Copyright © 2014, Your name. Designed by gettemplate
+                <a href="https://gettemplate.com" rel="designer">gettemplate</a>
+            </p>
+        </footer>
+    </body>
 </html>

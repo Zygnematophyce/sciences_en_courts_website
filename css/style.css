@@ -1,0 +1,140 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 1.125em;
+}
+
+section {
+    padding: 0 15%;
+}
+
+.nav-bar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .8);
+}
+
+nav {
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .navbar-logo {
+    height: 65px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li, a {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 15px 10px;
+    color: #999;
+}
+
+nav ul li:first-child a {
+    color: white;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+header {
+    min-height: 320px;
+    background: url('../img/bg-3-compressed.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 65px;
+    gap: 25px;
+}
+
+header h1 {
+    color: #cfa72a;
+    text-align: center;
+}
+
+main h1 {
+    padding: 30px;
+    text-align: center;
+    font-size: calc(1.625rem + 1.6vw);
+}
+
+main h2 {
+    text-align: center;
+}
+
+main ul li, p {
+    line-height: 1.55em;
+}
+
+main p {
+    margin: 10px;
+    font-size: 1.1em;
+}
+
+.framaform {
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 30px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #ff9311;
+    font-size: 1.1em;
+    border-radius: 3px;
+    transition: .2s;
+}
+
+.button:hover {
+    background-color: #f78700;
+}
+
+main ul {
+    margin: 32px;
+}
+
+main ul li {
+    font-size: 1em;
+}
+
+
+.edition h1 {
+    text-align: center;
+}
+
+.editions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.editions-grid img {
+    margin: auto;
+    max-width: 195px;
+    border-radius: 3px;
+}
