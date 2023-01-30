@@ -1,32 +1,28 @@
-Progressus - Free business/corporate Bootstrap template
-=============
+# Sciences en cour[t]s
+----------------------
 
-Progressus is a free, responsive, nice-looking business template based on Bootstrap HTML/CSS framework. 
+The sciences-en-courts.fr website.
 
-
-License
--------
-**Creative Commons Attribution 3.0** - http://creativecommons.org/licenses/by/3.0/
-
-
-Features
+## Features
 -----------
 
-* Easy to use, fat-free HTML and CSS code.
-* 7 ready-made templates for most common tasks
-* Responsive design
-* High overral quality, the template does worth to be premium.
+   * Responsive design
 
-
-Bug tracker
------------
+### Bug tracker
+---------------
 
 Found a bug? Please create an issue here on GitHub! 
-https://github.com/pozh/Progressus/issues
+https://github.com/SciencesEnCourts/site_web/issues
 
+### License
+-----------
+
+**Creative Commons Attribution 3.0** - http://creativecommons.org/licenses/by/3.0/
 
 Credits
 -------
-* Design and development: **Sergey Pozhilov** - http://pozhilov.com
-* Photos used in template: **Unsplash** - http://unsplash.com
-* More free templates by Sergey: http://gettemplate.com
+
+   * Redesign by zygnematophyce (2023)
+   * Design and development: **Sergey Pozhilov** - http://pozhilov.com
+   * Photos used in template: **Unsplash** - http://unsplash.com
+   * More free templates by Sergey: http://gettemplate.com
