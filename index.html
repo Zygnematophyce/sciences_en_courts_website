@@ -7,13 +7,15 @@
         <meta name="description" content="Site du festival de très courts métrage de vulgarisation scientifique">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shorcut icon" href="img/favicon.png">
-        <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="asserts/css/fontawesome.min.css">
+        <link rel="stylesheet" href="asserts/css/brands.min.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
     </head>
     <body>
-        <section class="nav-bar">
+        <div class="header_nav wrapper">
             <nav>
                 <a href="#">
-                    <img src="img/navbar-logo.png" class="navbar-logo" alt="science en courts" />
+                    <img src="img/navbar-logo.png" class="navbar-logo" alt="science en courts">
                 </a>
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -22,17 +24,17 @@
                     <li><a href="partners.html">Partenaires</a>
                 </ul>
             </nav>
-        </section>
+        </div>
         <header>
             <h1>- Quand Einstein rencontre Spielberg -</h1>
             <h1>
-                Le fectival de très court métrage </br> de vulgarisation
+                Le fectival de très court métrage <br> de vulgarisation
                 scientifique
             </h1>
         </header>
-        <section>
-            <main>
-                <h1>C'est quoi Sciences en Cour[t]s ?</h1>
+        <main>
+            <h1>C'est quoi Sciences en Cour[t]s ?</h1>
+            <section class="wrapper">
                 <p> Depuis 2007, l’équipe de Sciences en Cour[t]s organise un
                     festival de courts-métrages, qui offre à des doctorants
                     l’opportunité de réaliser des courts métrages sur leurs travaux de
@@ -68,46 +70,68 @@
                         Ça m'intéresse !
                     </a>
                 </div>
-            </main>
-        </section>
-        <section class="edition">
-            <h1>Les éditions précédentes</h1>
+            </section>
+        </main>
+        <section class="edition wrapper">
+            <h2 id="edition-track">Les éditions précédentes</h2>
             <div class="editions-grid">
-                <img src="img/posters/2007.jpg" alt="Affiche de sciences en courts de 2007" />
-                <img src="img/posters/2008.jpg" alt="Affiche de sciences en courts de 2008" />
-                <img src="img/posters/2009.jpg" alt="Affiche de sciences en courts de 2009" />
-                <img src="img/posters/2010.jpg" alt="Affiche de sciences en courts de 2010" />
-                <img src="img/posters/2011.jpg" alt="Affiche de sciences en courts de 2011" />
-                <img src="img/posters/2012.jpg" alt="Affiche de sciences en courts de 2012" />
-                <img src="img/posters/2013.jpg" alt="Affiche de sciences en courts de 2013" />
-                <img src="img/posters/2014.jpg" alt="Affiche de sciences en courts de 2014" />
-                <img src="img/posters/2016.jpg" alt="Affiche de sciences en courts de 2016" />
-                <img src="img/posters/2017.png" alt="Affiche de sciences en courts de 2017" />
-                <img src="img/posters/2020.jpg" alt="Affiche de sciences en courts de 2020" />
-                <img src="img/posters/2021.png" alt="Affiche de sciences en courts de 2021" />
-                <img src="img/posters/2022.png" alt="Affiche de sciences en courts de 2022" />
+                <img src="img/posters/2022.png" alt="Affiche de sciences en courts de 2022">
+                <img src="img/posters/2021.png" alt="Affiche de sciences en courts de 2021">
+                <img src="img/posters/2020.jpg" alt="Affiche de sciences en courts de 2020">
+                <img src="img/posters/2017.png" alt="Affiche de sciences en courts de 2017">
+                <img src="img/posters/2016.jpg" alt="Affiche de sciences en courts de 2016">
+                <img src="img/posters/2014.jpg" alt="Affiche de sciences en courts de 2014">
+                <img src="img/posters/2013.jpg" alt="Affiche de sciences en courts de 2013">
+                <img src="img/posters/2012.jpg" alt="Affiche de sciences en courts de 2012">
+                <img src="img/posters/2011.jpg" alt="Affiche de sciences en courts de 2011">
+                <img src="img/posters/2010.jpg" alt="Affiche de sciences en courts de 2010">
+                <img src="img/posters/2009.jpg" alt="Affiche de sciences en courts de 2009">
+                <img src="img/posters/2008.jpg" alt="Affiche de sciences en courts de 2008">
+                <img src="img/posters/2007.jpg" alt="Affiche de sciences en courts de 2007">
             </div>
         </section>
         <footer>
-            <div class="contact">
-                <h3>Conctact</h3>
-                <a href="mailto:#">sciences.en.courts@gmail.com</a>
-                <p>Association Nicomaque Bureau A102 INRIA/IRISA Campus
-                universitaire de Beaulieu 35042 RENNES</p>
-            </div>
-            <div class="social-networks">
-                <h2>Follow me</h2>
-            </div>
-        </footer>
-        <footer>
-            <ul>
-                <li><a href="">Home |</a></li>
-                <li><a href="">Tous les films |</a></li>
-            </ul>
-            <p>
-                Copyright © 2014, Your name. Designed by gettemplate
-                <a href="https://gettemplate.com" rel="designer">gettemplate</a>
-            </p>
+            <section class="footer">
+                <div>
+                    <h3>Science en cour[t]s</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Tous les films</a></li>
+                        <li><a href="#">Partenaires</a></li>
+                    </ul>
+                </div>
+                <div class="contact">
+                    <h3>Conctact</h3>
+                    <a href="mailto:sciences.en.courts@gmail.com">sciences.en.courts@gmail.com</a>
+                    <p>Association Nicomaque Bureau A102 INRIA/IRISA Campus
+                        universitaire de Beaulieu 35042 RENNES</p>
+                </div>
+                <div class="footer-informations">
+                    <h3>Nous suivre</h3>
+                    <div class="social-networks">
+                        <a href="https://twitter.com/scienceencourts" target="_blank">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="https://github.com/SciencesEnCourts">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCUY4_X-KClXAxmdbg_VCfDA">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                        <a href="https://www.facebook.com/sciencesencourts/">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                    </div>
+                    <div class="design">
+                        <a href="https://github.com/Zygnematophyce">
+                            Redesign by zygnematophyce (2023)
+                        </a>
+                        <a href="https://gettemplate.com" rel="designer">
+                            Copyright © 2014, Your name. Designed by gettemplate
+                        </a>
+                    </div>
+                </div>
+            </section>
         </footer>
     </body>
 </html>
